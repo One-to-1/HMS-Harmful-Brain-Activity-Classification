@@ -1,0 +1,9 @@
+pandas
+tensorflow
+keras
+scipy
+pyarrow
+fastparquet
+matplotlib
+tensorflow
+PyWavelets
