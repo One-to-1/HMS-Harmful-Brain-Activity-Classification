@@ -5,5 +5,4 @@ scipy
 pyarrow
 fastparquet
 matplotlib
-tensorflow
 PyWavelets
