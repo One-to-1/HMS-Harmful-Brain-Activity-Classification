@@ -1,2 +1,2 @@
-# HMS Harmfull Brain Activity Classification
+# HMS Harmful Brain Activity Classification
  
