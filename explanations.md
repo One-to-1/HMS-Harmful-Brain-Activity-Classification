@@ -26,4 +26,29 @@ Remember to install the necessary libraries using pip:
 pip install pandas pyarrow
 ```
 
-If you're facing any specific issues or have questions about working with Parquet files in Python, feel free to ask!
+## fastparquet library
+
+The `fastparquet` library is a Python interface to the Parquet format, with speed and functionality advantages over other libraries like `pyarrow`. It allows you to read and write Parquet files, without needing an underlying Parquet software installation.
+
+Here's a basic example of how you can use `fastparquet` to read and write Parquet files:
+
+```python
+from fastparquet import ParquetFile, write
+
+# Write a DataFrame to a Parquet file
+write('outfile.parquet', df)
+
+# Read a Parquet file
+pf = ParquetFile('outfile.parquet')
+df = pf.to_pandas()
+```
+
+In this example, `df` is a pandas DataFrame that you want to write to a Parquet file, and `outfile.parquet` is the name of the file you want to create.
+
+To install `fastparquet`, you can use pip:
+
+```bash
+pip install fastparquet
+```
+
+Remember that `fastparquet` requires `numpy`, `pandas`, and optionally `numba` for better performance.
