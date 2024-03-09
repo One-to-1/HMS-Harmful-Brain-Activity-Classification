@@ -1,4 +1,6 @@
-# One-to-1: @workspace /explain  parquet
+# AI generated explanations
+
+## One-to-1: @workspace /explain  parquet
 
 GitHub Copilot: It seems like you're interested in working with Parquet files in Python. Parquet is a columnar storage file format that is optimized for use with big data processing frameworks. It's efficient, compact, and allows for efficient data compression and encoding schemes.
 
