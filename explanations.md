@@ -86,5 +86,3 @@ pip install fastparquet
 ```
 
 Remember that `fastparquet` requires `numpy`, `pandas`, and optionally `numba` for better performance.
-
-
