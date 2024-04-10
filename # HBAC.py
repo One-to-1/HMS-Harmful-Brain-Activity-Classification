@@ -366,15 +366,6 @@ test_ds = build_dataset(test_paths, batch_size=min(Config.batchSize, len(test_df
 preds = model.predict(test_ds)
 
 # %% [markdown]
-# Evaluate the model on the test dataset.
-
-# %%
-# Evaluate the model
-loss, accuracy = model.evaluate(test_ds)
-
-print("Test accuracy:", accuracy)
-
-# %% [markdown]
 # ## Submission
 
 # %%
